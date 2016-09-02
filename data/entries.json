@@ -2,7 +2,7 @@
   "id": 1,
   "title": "Cron (job scheduler)",
   "description": "It comes from the Greek word for time, chronos (χρόνος). Chronos is the personification of time in early Greek mythology and literature. He later appears in the Renaissance as Father Time.",
-  "categories": [
+  "categories": [n
     "OS",
     "unix",
     "linux",
@@ -350,7 +350,7 @@
     "big data",
     "databases",
     "data-warehouse",
-    "business intalligence"
+    "business intelligence"
   ],
   "references": []
 }, {
