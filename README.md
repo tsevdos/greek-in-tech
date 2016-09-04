@@ -1,17 +1,16 @@
 # greek-in-tech
 
+[![Build Status](https://travis-ci.org/tsevdos/greek-in-tech.svg?branch=master)](https://travis-ci.org/tsevdos/greek-in-tech) [![codecov](https://codecov.io/gh/tsevdos/greek-in-tech/branch/master/graph/badge.svg)](https://codecov.io/gh/tsevdos/greek-in-tech) [![dependencies Status](https://david-dm.org/tsevdos/greek-in-tech/status.svg)](https://david-dm.org/tsevdos/greek-in-tech) [![devDependencies Status](https://david-dm.org/tsevdos/greek-in-tech/dev-status.svg)](https://david-dm.org/tsevdos/greek-in-tech?type=dev)
+
+
 > Learn which words used on modern computing and software engineering, come straight from the greek language/mythology.
 
-All the entries are just a [JSON file](data/entries.json).
-
 ## Install
-
-```
+```shell
 $ npm install --save greek-in-tech
 ```
 
 ## Usage
-
 ```js
 const greekInTech = require('greek-in-tech');
 
@@ -27,7 +26,7 @@ greekInTech.getEntry(2);
 
 A single entry looks like this:
 
-```
+```json
 {
   id: 2,
   title: 'Daemon',
@@ -40,17 +39,16 @@ A single entry looks like this:
 ## API
 
 ### .all: object[]
-
 All entries.
 
 ### .random(): object
-
 Random entry.
 
 ### .getEntry(id: number): object
-
 Specific entry.
 
-## License
+## Contributing
+All the entries are located into a single [JSON file](data/entries.json). Just add your entry, check everything using `npm run prepublish` and create a pull request.
 
+## License
 GPL3 © [John Tsevdos](http://tsevdos.me)
