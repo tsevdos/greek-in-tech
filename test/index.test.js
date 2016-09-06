@@ -1,4 +1,4 @@
-import { expect } from 'chai';
+import {expect} from 'chai';
 import * as m from '../src/index';
 
 describe('Greek in Tech', () => {
