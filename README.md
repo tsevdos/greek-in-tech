@@ -2,8 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tsevdos/greek-in-tech.svg?branch=master)](https://travis-ci.org/tsevdos/greek-in-tech) [![codecov](https://codecov.io/gh/tsevdos/greek-in-tech/branch/master/graph/badge.svg)](https://codecov.io/gh/tsevdos/greek-in-tech) [![dependencies Status](https://david-dm.org/tsevdos/greek-in-tech/status.svg)](https://david-dm.org/tsevdos/greek-in-tech) [![devDependencies Status](https://david-dm.org/tsevdos/greek-in-tech/dev-status.svg)](https://david-dm.org/tsevdos/greek-in-tech?type=dev)
 
-
-> Learn which words used on modern computing and software engineering, come straight from the greek language/mythology.
+> Learn which words used on modern computing and software engineering, come straight from the greek language/mythology. Visit [greekintech.com](http://greekintech.com) to read all entries.
 
 ## Install
 ```shell
@@ -26,7 +25,7 @@ greekInTech.getEntry(2);
 
 A single entry looks like this:
 
-```
+```js
 {
   id: 2,
   title: 'Daemon',
@@ -49,6 +48,10 @@ Specific entry.
 
 ## Contributing
 All the entries are located into a single [JSON file](data/entries.json). Just add your entry, check everything using `npm run prepublish` and create a pull request.
+
+## Related
+- [greekintech.com](http://greekintech.com) - greekintech.com site
+- [greek-in-tech-site](https://github.com/tsevdos/greek-in-tech-site/) - Repo of the greekintech.com
 
 ## License
 GPL3 © [John Tsevdos](http://tsevdos.me)
