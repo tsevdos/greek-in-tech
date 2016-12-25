@@ -8,11 +8,11 @@
   },
   "scripts": {
     "clean": "rimraf lib",
-    "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-register --recursive",
+    "test": "mocha --compilers js:babel-register --recursive",
     "test:watch": "npm test -- --watch",
-    "cover": "cross-env BABEL_ENV=commonjs istanbul cover _mocha -- --compilers js:babel-register --recursive",
+    "cover": "istanbul cover _mocha -- --compilers js:babel-register --recursive",
     "lint": "xo **/*.js !lib/*.js",
-    "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+    "build": "babel src --out-dir lib",
     "prepublish": "npm run clean && npm run lint && npm run test && npm run build",
     "postcodecover": "npm run cover && codecov"
   },
@@ -47,8 +47,7 @@
     "babel-register": "^6.18.0",
     "chai": "^3.5.0",
     "codecov": "1.0.1",
-    "cross-env": "^3.1.3",
-    "istanbul": "^0.4.5",
+    "istanbul": "^1.0.0-alpha",
     "mocha": "^3.2.0",
     "rimraf": "^2.5.4",
     "xo": "^0.17.1"
