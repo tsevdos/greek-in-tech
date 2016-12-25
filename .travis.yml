@@ -18,3 +18,10 @@ script:
 branches:
   only:
     - master
+deploy:
+  provider: npm
+  email: tsevdosjohn@gmail.com
+  api_key: $NPM_API_KEY
+  on:
+    tags: true
+    repo: tsevdos/greek-in-tech
