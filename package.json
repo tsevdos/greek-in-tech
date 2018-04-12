@@ -34,7 +34,7 @@
     "random"
   ],
   "author": "John Tsevdos <tsevdosjohn@gmail.com> (http://tsevdos.me)",
-  "license": "GPL3",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tsevdos/greek-in-tech/issues"
   },

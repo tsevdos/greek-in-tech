@@ -58,4 +58,4 @@ All the entries are located into a single [JSON file](data/entries.json). Just a
 - [greek-in-tech-site](https://github.com/tsevdos/greek-in-tech-site/) - Repo of the greekintech.com
 
 ## License
-GPL3 (&#390;) [John Tsevdos](http://tsevdos.me)
+MIT [John Tsevdos](http://tsevdos.me)
