@@ -9,7 +9,10 @@
     "open source"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Cron"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Cron"
+    }
   ]
 }, {
   "id": 2,
@@ -22,7 +25,10 @@
     "open source"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology"
+    }
   ]
 }, {
   "id": 3,
@@ -254,7 +260,10 @@
     "software"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Cryptography"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Cryptography"
+    }
   ]
 }, {
   "id": 27,
@@ -265,7 +274,10 @@
     "communication"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Steganography"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Steganography"
+    }
   ]
 }, {
   "id": 28,
@@ -277,7 +289,10 @@
     "communication"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/entropy"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wiktionary.org/wiki/entropy"
+    }
   ]
 }, {
   "id": 29,
@@ -289,8 +304,14 @@
     "software"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Monolith",
-    "http://dictionary.reference.com/browse/monolith"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Monolith"
+    },
+    {
+      "name": "Dictionary",
+      "source": "http://dictionary.reference.com/browse/monolith"
+    }
   ]
 }, {
   "id": 30,
@@ -302,7 +323,10 @@
     "security"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Authentication"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Authentication"
+    }
   ]
 }, {
   "id": 31,
@@ -313,8 +337,14 @@
     "hardware"
   ],
   "references": [
-    "http://dictionary.reference.com/browse/mouse",
-    "http://www.etymonline.com/index.php?term=mouse"
+    {
+      "name": "Dictionary",
+      "source": "http://dictionary.reference.com/browse/mouse"
+    },
+    {
+      "name": "Etymonline",
+      "source": "http://www.etymonline.com/index.php?term=mouse"
+    }
   ]
 }, {
   "id": 32,
@@ -324,7 +354,10 @@
     "programming"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/parallel#Etymology"
+    {
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/parallel#Etymology"
+    }
   ]
 }, {
   "id": 33,
@@ -428,8 +461,14 @@
     "frameworks"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Symphony#Origins",
-    "http://symfony.com/what-is-symfony"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Symphony#Origins"
+    },
+    {
+      "name": "Symfony",
+      "source": "http://symfony.com/what-is-symfony"
+    }
   ]
 }, {
   "id": 45,
@@ -439,7 +478,10 @@
     "databases"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Atomicity_(database_systems)"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Atomicity_(database_systems)"
+    }
   ]
 }, {
   "id": 46,
@@ -450,7 +492,10 @@
     "databases"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Delta_encoding"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Delta_encoding"
+    }
   ]
 }, {
   "id": 47,
@@ -460,8 +505,14 @@
     "programming"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Syntax_(programming_languages)",
-    "https://en.wikipedia.org/wiki/Syntax"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Syntax_(programming_languages)"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Syntax"
+    }
   ]
 }, {
   "id": 48,
@@ -471,7 +522,10 @@
     "programming"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Semantics"
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Semantics"
+    }
   ]
 }, {
   "id": 49,
@@ -481,8 +535,14 @@
     "computing"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/kilo-",
-    "https://en.wikipedia.org/wiki/Kilo-"
+    {
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/kilo-"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Kilo-"
+    }
   ]
 }, {
   "id": 50,
@@ -493,8 +553,14 @@
     "supercomputer"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/paragon",
-    "https://en.wikipedia.org/wiki/Intel_Paragon"
+    {
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/paragon"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Intel_Paragon"
+    }
   ]
 }, {
   "id": 51,
