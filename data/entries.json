@@ -572,10 +572,22 @@
     "software"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/Titan",
-    "https://en.wikipedia.org/wiki/Titan_(supercomputer)",
-    "https://en.wikipedia.org/wiki/Titan_(computer)",
-    "http://www.digitaltrends.com/computing/facebooks-project-titan-is-the-modern-messaging-system-but-is-not-an-e-mail-killer/"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/Titan"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Titan_(supercomputer)"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Titan_(computer)"
+    },
+    {
+      "name": "Digitaltrends",
+      "source": "http://www.digitaltrends.com/computing/facebooks-project-titan-is-the-modern-messaging-system-but-is-not-an-e-mail-killer/"
+    }
   ]
 }, {
   "id": 52,
@@ -586,8 +598,14 @@
     "networking"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/octo",
-    "https://en.wikipedia.org/wiki/Octet_(computing)"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/octo"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Octet_(computing)"
+    }
   ]
 }, {
   "id": 53,
@@ -600,8 +618,14 @@
     "machine learning"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/neural",
-    "https://en.wikipedia.org/wiki/Artificial_neural_network"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/neural"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Artificial_neural_network"
+    }
   ]
 }, {
   "id": 54,
@@ -612,8 +636,14 @@
     "communications"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/protocol",
-    "https://en.wikipedia.org/wiki/Communications_protocol"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/protocol"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Communications_protocol"
+    }   
   ]
 }, {
   "id": 55,
@@ -623,7 +653,10 @@
     "programming"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/method"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/method"
+    }
   ]
 }, {
   "id": 56,
@@ -635,7 +668,10 @@
     "communications"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/topology"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/topology"
+    }
   ]
 }, {
   "id": 57,
@@ -645,8 +681,14 @@
     "software"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/diagnosis",
-    "https://en.wiktionary.org/wiki/diagnostic#English"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/diagnosis"
+    },
+    {
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/diagnostic#English"
+    }
   ]
 }, {
   "id": 58,
@@ -656,8 +698,14 @@
     "computing"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/hexa-#English",
-    "https://en.wikipedia.org/wiki/Hexadecimal"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/hexa-#English"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Hexadecimal"
+    }
   ]
 }, {
   "id": 59,
@@ -667,7 +715,10 @@
     "computing"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/giga-"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/giga-"
+    }
   ]
 }, {
   "id": 60,
@@ -678,7 +729,10 @@
     "programming"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Meta"
+  	{
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Meta"
+    }
   ]
 }, {
   "id": 61,
@@ -689,7 +743,10 @@
     "programming"
   ],
   "references": [
-    "https://en.wikipedia.org/wiki/Lambda_calculus"
+  	{
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Lambda_calculus"
+    }
   ]
 }, {
   "id": 62,
@@ -699,8 +756,14 @@
     "computing"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/mega-",
-    "https://en.wikipedia.org/wiki/Mega-"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/mega-"
+    },
+    {
+      "name": "Wikipedia",
+      "source": "https://en.wikipedia.org/wiki/Mega-"
+    }
   ]
 }, {
   "id": 63,
@@ -710,7 +773,10 @@
     "technology"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/analog"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/analog"
+    }
   ]
 }, {
   "id": 64,
@@ -721,7 +787,10 @@
     "programming"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/dynamic"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/dynamic"
+    }
   ]
 }, {
   "id": 65,
@@ -732,7 +801,10 @@
     "programming"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/macro"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/macro"
+    }
   ]
 }, {
   "id": 66,
@@ -742,7 +814,13 @@
     "networks"
   ],
   "references": [
-    "https://en.wiktionary.org/wiki/Ethernet",
-    "https://en.wiktionary.org/wiki/ether"
+  	{
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/Ethernet"
+    },
+    {
+      "name": "Wiktionary",
+      "source": "https://en.wiktionary.org/wiki/ether"
+    }
   ]
 }]
