@@ -32,7 +32,12 @@ A single entry looks like this:
   title: 'Daemon',
   description: 'The term coined by programmers of MIT\'s Project MAC, was inspired by the physicist James Clerk Maxwell\'s demon. It originated as an imaginary being from a thought experiment that constantly works in the background sorting molecules. In Greek mythology, a daemon is a supernatural being working in the background, with no particular bias towards good or evil. The daemon concept was subsequently adopted by Unix systems, however, BSD and some of its derivatives have used a Christian interpretation of the mythological deamon as their mascot rather than a Greek daemon.',
   categories: [ 'OS', 'unix', 'linux', 'open source' ],
-  references: [ 'https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology' ]
+  references: [
+  				{
+					name: 'Wikipedia',
+  					source: 'https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology'					
+  				}
+  			  ]
 }
 ```
 
