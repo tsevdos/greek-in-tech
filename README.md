@@ -18,7 +18,7 @@ greekInTech.all;
 //=> all entries
 
 greekInTech.random();
-//=> random enrty
+//=> random entry
 
 greekInTech.getEntry(2);
 //=> specific entry
