@@ -30,7 +30,10 @@ describe('Greek in Tech', () => {
           'open source'
         ],
         references: [
-          'https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology'
+          {
+            name: 'Wikipedia',
+            source: 'https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology'
+          }
         ]
       };
 
@@ -54,6 +57,7 @@ describe('Greek in Tech', () => {
       expect(entry).to.have.property('description');
       expect(entry).to.have.property('categories');
       expect(entry).to.have.property('references');
+      expect(entry.references).to.be.an('array');
     });
 
     it('must return a specific entry', () => {
@@ -67,7 +71,8 @@ describe('Greek in Tech', () => {
       ];
       expect(entry.description).to.eql(description.join(' '));
       expect(entry.categories).to.eql(['OS', 'unix', 'linux', 'open source']);
-      expect(entry.references).to.eql(['https://en.wikipedia.org/wiki/Cron']);
+      expect(entry.references[0].name).to.eql('Wikipedia');
+      expect(entry.references[0].source).to.eql('https://en.wikipedia.org/wiki/Cron');
     });
 
     it('must throw an error if entry doesnt exists', () => {
