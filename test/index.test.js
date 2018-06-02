@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import * as m from '../src/index';
+import * as m from '../src';
 
 describe('Greek in Tech', () => {
   describe('all', () => {
@@ -37,7 +37,7 @@ describe('Greek in Tech', () => {
         ]
       };
 
-      expect(m.all).to.include(entry);
+      expect(m.all).to.deep.include(entry);
     });
   });
 
