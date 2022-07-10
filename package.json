@@ -1,25 +1,33 @@
 {
-  "name": "greek-in-tech",
+  "name": "@tsevdos/greek-in-tech",
   "version": "1.0.1",
   "description": "Learn which words used on modern computing and software engineering, come straight from the greek language/mythology.",
-  "main": "./lib/index.js",
-  "engines": {
-    "node": ">=4"
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.mjs",
+  "exports": "./dist/index.modern.js",
+  "types": "./dist/src/index.d.ts",
+  "author": "John Tsevdos <tsevdosjohn@gmail.com> (http://tsevdos.me)",
+  "homepage": "http://greekintech.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsevdos/greek-in-tech/issues"
   },
   "scripts": {
-    "clean": "rimraf lib",
-    "test": "jest test/*",
+    "build": "microbundle --tsconfig ./tsconfig.json",
+    "lint": "npm run lint:types && npm run lint:eslint && npm run prettier",
+    "lint:types": "tsc -p . --declaration",
+    "lint:eslint": "eslint src --ext .ts",
+    "prettier": "prettier --ignore-path .gitignore -c ./src/**",
+    "test": "jest",
     "test:watch": "jest --watch",
-    "test:cover": "jest --coverage",
-    "lint": "eslint src/** test/**",
-    "lint:fix": "eslint src/** test/** --fix",
-    "build": "webpack --mode production",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build",
-    "postcodecover": "npm run test && codecov"
+    "test:coverage": "jest --coverage",
+    "prepublish": "npm run lint && npm run test && npm run build"
   },
   "files": [
-    "lib",
-    "data"
+    "dist/**.js*",
+    "dist/**/*.ts"
   ],
   "repository": {
     "type": "git",
@@ -34,35 +42,16 @@
     "data",
     "random"
   ],
-  "author": "John Tsevdos <tsevdosjohn@gmail.com> (http://tsevdos.me)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tsevdos/greek-in-tech/issues"
-  },
-  "homepage": "http://greekintech.com",
   "devDependencies": {
-    "@babel/core": "7.1.6",
-    "@babel/preset-env": "7.1.6",
-    "babel-loader": "8.0.4",
-    "babel-core": "7.0.0-bridge.0",
-    "codecov": "3.1.0",
-    "eslint": "5.9.0",
-    "eslint-config-standard": "12.0.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-node": "8.0.0",
-    "eslint-plugin-promise": "4.0.1",
-    "eslint-plugin-standard": "4.0.0",
-    "jest": "23.6.0",
-    "rimraf": "2.6.2",
-    "webpack": "4.25.1",
-    "webpack-cli": "3.1.2",
-    "regenerator-runtime": "0.12.1"
-  },
-  "dependencies": {
-    "unique-random-array": "1.0.1"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
+    "@types/jest": "^28.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "jest": "28.1.2",
+    "microbundle": "^0.15.0",
+    "np": "^7.6.2",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
   }
 }

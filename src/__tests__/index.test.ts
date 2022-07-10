@@ -1,28 +1,28 @@
-import * as m from "../src";
+import { all, random, getEntry } from "../index";
 
 describe("Greek in Tech", () => {
   describe("all", () => {
     it("must be an array with length more than zero", () => {
-      expect(Array.isArray(m.all)).toBe(true);
-      expect(m.all.length).toBeGreaterThan(0);
+      expect(Array.isArray(all)).toBe(true);
+      expect(all.length).toBe(66);
     });
 
-    it("must includes the \"Daemon\" entry", () => {
-      const entry = m.all[1];
-      expect(m.all).toContain(entry);
+    it('must includes the "Daemon" entry', () => {
+      const entry = all[1];
+      expect(all).toContain(entry);
     });
   });
 
   describe("random", () => {
     it("must return a random entry from the list", () => {
-      const entry = m.random();
-      expect(m.all).toContain(entry);
+      const entry = random();
+      expect(all).toContain(entry);
     });
   });
 
   describe("getEntry", () => {
     it("the entry must be an object with correct properties", () => {
-      const entry = m.getEntry(2);
+      const entry = getEntry(2);
       expect(typeof entry).toBe("object");
       expect(entry).toHaveProperty("id");
       expect(entry).toHaveProperty("title");
@@ -33,13 +33,13 @@ describe("Greek in Tech", () => {
     });
 
     it("must return a specific entry", () => {
-      const entry = m.getEntry(1);
+      const entry = getEntry(1);
       expect(entry.id).toBe(1);
       expect(entry.title).toBe("Cron (job scheduler)");
       const description = [
         "It comes from the Greek word for time, chronos (χρόνος).",
         "Chronos is the personification of time in early Greek mythology and literature.",
-        "He later appears in the Renaissance as Father Time."
+        "He later appears in the Renaissance as Father Time.",
       ];
       expect(entry.description).toBe(description.join(" "));
       expect(entry.categories).toEqual(["OS", "unix", "linux", "open source"]);
@@ -48,7 +48,7 @@ describe("Greek in Tech", () => {
     });
 
     it("must throw an error if entry doesnt exists", () => {
-      expect(() => m.getEntry(10001)).toThrow("Invalid ID");
+      expect(() => getEntry(10001)).toThrow("Invalid ID");
     });
   });
 });
