@@ -16,6 +16,7 @@
   },
   "scripts": {
     "build": "microbundle --tsconfig ./tsconfig.json",
+    "release": "np",
     "lint": "npm run lint:types && npm run lint:eslint && npm run prettier",
     "lint:types": "tsc -p . --declaration",
     "lint:eslint": "eslint src --ext .ts",
