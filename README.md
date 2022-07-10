@@ -1,7 +1,5 @@
 # greek-in-tech
 
-[![Build Status](https://travis-ci.org/tsevdos/greek-in-tech.svg?branch=master)](https://travis-ci.org/tsevdos/greek-in-tech) [![codecov](https://codecov.io/gh/tsevdos/greek-in-tech/branch/master/graph/badge.svg)](https://codecov.io/gh/tsevdos/greek-in-tech)
-
 > Learn which words used on modern computing and software engineering, come straight from the greek language/mythology. Visit [greekintech.com](http://greekintech.com) to read all entries.
 
 ## Install
@@ -72,4 +70,4 @@ All the entries are located into a single [JSON file](data/entries.json). Just a
 
 ## License
 
-MIT [John Tsevdos](http://tsevdos.me)
+MIT© [John Tsevdos](http://tsevdos.me)
