@@ -2,7 +2,7 @@
 node_modules
 
 # lib directory
-lib
+dist
 
 # Editors
 .idea

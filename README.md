@@ -1,18 +1,22 @@
 # greek-in-tech
 
-[![Build Status](https://travis-ci.org/tsevdos/greek-in-tech.svg?branch=master)](https://travis-ci.org/tsevdos/greek-in-tech) [![codecov](https://codecov.io/gh/tsevdos/greek-in-tech/branch/master/graph/badge.svg)](https://codecov.io/gh/tsevdos/greek-in-tech) [![dependencies Status](https://david-dm.org/tsevdos/greek-in-tech/status.svg)](https://david-dm.org/tsevdos/greek-in-tech) [![devDependencies Status](https://david-dm.org/tsevdos/greek-in-tech/dev-status.svg)](https://david-dm.org/tsevdos/greek-in-tech?type=dev)
-[![Gitter](https://badges.gitter.im/tsevdos/greek-in-tech.svg)](https://gitter.im/tsevdos/greek-in-tech?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Build Status](https://travis-ci.org/tsevdos/greek-in-tech.svg?branch=master)](https://travis-ci.org/tsevdos/greek-in-tech) [![codecov](https://codecov.io/gh/tsevdos/greek-in-tech/branch/master/graph/badge.svg)](https://codecov.io/gh/tsevdos/greek-in-tech)
 
 > Learn which words used on modern computing and software engineering, come straight from the greek language/mythology. Visit [greekintech.com](http://greekintech.com) to read all entries.
 
 ## Install
+
 ```shell
-$ npm install --save greek-in-tech
+$ npm install --save @tsevdos/greek-in-tech
 ```
 
 ## Usage
+
 ```js
-const greekInTech = require('greek-in-tech');
+// node
+const greekInTech = require("greek-in-tech");
+// ES
+import greekInTech from "greek-in-tech";
 
 greekInTech.all;
 //=> all entries
@@ -35,7 +39,7 @@ A single entry looks like this:
   references: [
     {
       name: 'Wikipedia',
-      source: 'https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology'					
+      source: 'https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology'
     }
   ]
 }
@@ -44,23 +48,28 @@ A single entry looks like this:
 ## API
 
 ### .all: object[]
+
 All entries.
 
 ### .random(): object
+
 Random entry.
 
 ### .getEntry(id: number): object
+
 Specific entry.
 
 You can play with the greek-in-tech API on this [runkit notebook](https://runkit.com/tsevdos/greek-in-tech-api-example).
 
-
 ## Contributing
+
 All the entries are located into a single [JSON file](data/entries.json). Just add your entry, check everything using `npm run prepublish` and create a pull request.
 
 ## Related
+
 - [greekintech.com](http://greekintech.com) - greekintech.com site
 - [greek-in-tech-site](https://github.com/tsevdos/greek-in-tech-site/) - Repo of the greekintech.com
 
 ## License
+
 MIT [John Tsevdos](http://tsevdos.me)
