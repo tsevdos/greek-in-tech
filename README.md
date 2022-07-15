@@ -5,25 +5,28 @@
 ## Install
 
 ```shell
-$ npm install --save greek-in-tech
+npm install greek-in-tech
+```
+
+or
+
+```shell
+yarn add greek-in-tech
 ```
 
 ## Usage
 
 ```js
-// node
-const greekInTech = require("greek-in-tech");
-// ES
-import greekInTech from "greek-in-tech";
+import { all, random, getEntry } from "greek-in-tech";
 
-greekInTech.all;
-//=> all entries
+### all: object[]
+//=> All entries.
 
-greekInTech.random();
-//=> random entry
+### random(): object
+//=> Random entry.
 
-greekInTech.getEntry(2);
-//=> specific entry
+### getEntry(id: number): object
+//=> Specific entry.
 ```
 
 A single entry looks like this:
@@ -42,22 +45,6 @@ A single entry looks like this:
   ]
 }
 ```
-
-## API
-
-### .all: object[]
-
-All entries.
-
-### .random(): object
-
-Random entry.
-
-### .getEntry(id: number): object
-
-Specific entry.
-
-You can play with the greek-in-tech API on this [runkit notebook](https://runkit.com/tsevdos/greek-in-tech-api-example).
 
 ## Contributing
 
