@@ -1,5 +1,5 @@
 {
-  "name": "@tsevdos/greek-in-tech",
+  "name": "greek-in-tech",
   "version": "1.0.1",
   "description": "Learn which words used on modern computing and software engineering, come straight from the greek language/mythology.",
   "type": "module",

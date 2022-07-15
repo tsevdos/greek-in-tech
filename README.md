@@ -5,7 +5,7 @@
 ## Install
 
 ```shell
-$ npm install --save @tsevdos/greek-in-tech
+$ npm install --save greek-in-tech
 ```
 
 ## Usage
