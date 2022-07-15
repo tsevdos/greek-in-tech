@@ -15,7 +15,8 @@
     "url": "https://github.com/tsevdos/greek-in-tech/issues"
   },
   "scripts": {
-    "build": "microbundle --tsconfig ./tsconfig.json",
+    "build": "rm -rf dist && npm run lint && microbundle --tsconfig ./tsconfig.json",
+    "prepare": "npm run build",
     "release": "np",
     "lint": "npm run lint:types && npm run lint:eslint && npm run prettier",
     "lint:types": "tsc -p . --declaration",
@@ -54,9 +55,5 @@
     "prettier": "^2.7.1",
     "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
   }
 }
