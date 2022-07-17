@@ -1,8 +1,15 @@
 {
+  "hooks": {
+    "before:init": ["npm run lint", "npm test"],
+    "after:bump": "npm run build",
+    "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+  },
   "git": {
-    "commitMessage": "chore: release v${version}"
+    "requireCleanWorkingDir": true,
+    "commitMessage": "Release v${version}"
   },
   "github": {
-    "release": true
+    "release": true,
+    "releaseName": "v${version}"
   }
 }
