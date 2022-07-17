@@ -1,6 +1,6 @@
 {
   "name": "greek-in-tech",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Learn which words used on modern computing and software engineering, come straight from the greek language/mythology.",
   "type": "module",
   "source": "src/index.ts",
