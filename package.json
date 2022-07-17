@@ -56,6 +56,7 @@
     "typescript": "^4.7.4"
   },
   "publishConfig": {
+    "yarn": false,
     "access": "public",
     "registry": "https://registry.npmjs.org"
   }
