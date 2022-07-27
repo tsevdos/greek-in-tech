@@ -15,20 +15,18 @@
     "url": "https://github.com/tsevdos/greek-in-tech/issues"
   },
   "scripts": {
-    "build": "npm run lint && microbundle --tsconfig ./tsconfig.json",
-    "release": "release-it",
+    "build": "rm -rf dist && microbundle --tsconfig ./tsconfig.json",
+    "release": "npx release-it --npm.publishArgs=\"--registry=https://registry.npmjs.org\"",
     "lint": "npm run lint:types && npm run lint:eslint && npm run prettier",
     "lint:types": "tsc -p . --declaration",
     "lint:eslint": "eslint src --ext .ts",
     "prettier": "prettier --ignore-path .gitignore -c ./src/**",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "prepublish": "npm run lint && npm run test && npm run build"
+    "test:coverage": "jest --coverage"
   },
   "files": [
-    "dist/**.js*",
-    "dist/**/*.ts"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -56,6 +54,7 @@
     "typescript": "^4.7.4"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }

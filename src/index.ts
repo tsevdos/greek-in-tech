@@ -21,3 +21,14 @@ export const getEntry = (id = 1): Entry => {
 
   return entry;
 };
+
+const GreekInTech = Object.assign(
+  {},
+  {
+    all,
+    random,
+    getEntry,
+  },
+);
+
+export default GreekInTech;

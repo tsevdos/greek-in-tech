@@ -17,14 +17,17 @@ yarn add greek-in-tech
 ## Usage
 
 ```js
-import { all, random, getEntry } from "greek-in-tech";
+import GreekInTech, { all, random, getEntry } from "greek-in-tech";
 
+### GreekInTech.all: object[]
 ### all: object[]
 //=> All entries.
 
+### GreekInTech.random(): object
 ### random(): object
 //=> Random entry.
 
+### GreekInTech.getEntry(id: number): object
 ### getEntry(id: number): object
 //=> Specific entry.
 ```
