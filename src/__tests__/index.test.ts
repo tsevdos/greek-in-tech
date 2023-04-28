@@ -4,10 +4,10 @@ describe("Greek in Tech", () => {
   describe("all", () => {
     it("must be an array with length more than zero", () => {
       expect(Array.isArray(GiT.all)).toBe(true);
-      expect(GiT.all.length).toBe(66);
+      expect(GiT.all.length).toBe(67);
 
       expect(Array.isArray(all)).toBe(true);
-      expect(all.length).toBe(66);
+      expect(all.length).toBe(67);
     });
 
     it('must includes the "Daemon" entry', () => {

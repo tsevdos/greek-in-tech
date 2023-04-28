@@ -51,7 +51,7 @@ A single entry looks like this:
 
 ## Contributing
 
-All the entries are located into a single [JSON file](data/entries.json). Just add your entry, check everything using `npm run prepublish` and create a pull request.
+All the entries are located into a single [JSON file](data/entries.json). Just add your entry, check everything using `npm test` and `npm run lint` and create a pull request.
 
 ## Related
 
