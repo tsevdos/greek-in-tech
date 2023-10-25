@@ -10,7 +10,7 @@ type Entry = {
 
 export const all: Entry[] = entries;
 
-export const random = (): Entry => entries[Math.floor(Math.random() * entries.length)];
+export const random = () => entries[Math.floor(Math.random() * entries.length)] as Entry;
 
 export const getEntry = (id = 1): Entry => {
   const entry = entries[id - 1];
@@ -22,13 +22,10 @@ export const getEntry = (id = 1): Entry => {
   return entry;
 };
 
-const GreekInTech = Object.assign(
-  {},
-  {
-    all,
-    random,
-    getEntry,
-  },
-);
+const GreekInTech = {
+  all,
+  random,
+  getEntry,
+};
 
 export default GreekInTech;

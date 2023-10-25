@@ -689,7 +689,7 @@
     "id": 67,
     "title": "System",
     "description": "From Ancient Greek sunístēmi (σῠνῐ́στημῐ) meaning 'I place together, associate, unite'. 'In computer science and information science, system is a hardware system, software system, or combination, which has components as its structure and observable inter-process communications as its behavior. [...] System can also refer to a framework, aka platform, be it software or hardware, designed to allow software programs to run.'",
-    "categories": ["computing", "technology","hardware","software","science"],
+    "categories": ["computing", "technology", "hardware", "software", "science"],
     "references": [
       {
         "name": "Wiktionary",
