@@ -1,4 +1,4 @@
-import GiT, { all, random, getEntry } from "../index";
+import GiT, { all, random, getEntry } from "./index";
 
 describe("Greek in Tech", () => {
   describe("all", () => {
@@ -56,8 +56,8 @@ describe("Greek in Tech", () => {
         "The term coined by programmers of MIT's Project MAC, was inspired by the physicist James Clerk Maxwell's demon. It originated as an imaginary being from a thought experiment that constantly works in the background sorting molecules. In Greek mythology, a daemon is a supernatural being working in the background, with no particular bias towards good or evil. The daemon concept was subsequently adopted by Unix systems, however, BSD and some of its derivatives have used a Christian interpretation of the mythological deamon as their mascot rather than a Greek daemon.",
       );
       expect(entry2.categories).toEqual(["OS", "unix", "linux", "open source"]);
-      expect(entry2.references[0].name).toBe("Wikipedia");
-      expect(entry2.references[0].source).toBe("https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology");
+      expect(entry2.references[0]?.name).toBe("Wikipedia");
+      expect(entry2.references[0]?.source).toBe("https://en.wikipedia.org/wiki/Daemon_(computing)#Etymology");
 
       const entry1 = getEntry(1);
       expect(entry1.id).toBe(1);
@@ -66,8 +66,8 @@ describe("Greek in Tech", () => {
         "It comes from the Greek word for time, chronos (χρόνος). Chronos is the personification of time in early Greek mythology and literature. He later appears in the Renaissance as Father Time.";
       expect(entry1.description).toBe(description1);
       expect(entry1.categories).toEqual(["OS", "unix", "linux", "open source"]);
-      expect(entry1.references[0].name).toBe("Wikipedia");
-      expect(entry1.references[0].source).toBe("https://en.wikipedia.org/wiki/Cron");
+      expect(entry1.references[0]?.name).toBe("Wikipedia");
+      expect(entry1.references[0]?.source).toBe("https://en.wikipedia.org/wiki/Cron");
     });
 
     it("must throw an error if entry doesnt exists", () => {
