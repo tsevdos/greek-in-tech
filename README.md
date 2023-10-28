@@ -17,6 +17,12 @@ yarn add @tsevdos/greek-in-tech
 ## Usage
 
 ```js
+// CommonJS
+const GreekInTech = require("@tsevdos/greek-in-tech").default;
+const all = require("@tsevdos/greek-in-tech").all;
+const random = require("@tsevdos/greek-in-tech").random;
+const getEntry = require("@tsevdos/greek-in-tech").getEntry;
+// ESM
 import GreekInTech, { all, random, getEntry } from "@tsevdos/greek-in-tech";
 
 GreekInTech.all: object[]

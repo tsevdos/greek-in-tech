@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         node: [16, 18, 20]
-    name: Checking PR in node version ➡️ ${{ matrix.node }}❗️
+    name: Checking PR in node version ➡️ ${{ matrix.node }} 💯
     steps:
       - name: Checkout code 📥
         uses: actions/checkout@v3
@@ -35,5 +35,5 @@ jobs:
       - name: Test app 🙏
         run: npm test
 
-      - name: Build app 🏗
+      - name: Build app 👷
         run: npm run build
